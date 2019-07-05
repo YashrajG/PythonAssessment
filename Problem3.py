@@ -15,3 +15,9 @@ def compareStrings(s1, s2):
 listOfStrings.sort(key=functools.cmp_to_key(compareStrings))
 
 print(listOfStrings)
+
+#Output
+# Enter a list of strings in python format : ['car','rat','cat']
+# Enter the lexical order of alphabets as a list of strings in python format : ['r','c','t','a']
+# ['rat', 'car', 'cat']
+

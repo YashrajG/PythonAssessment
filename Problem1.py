@@ -38,3 +38,9 @@ if __name__ == '__main__':
     print("List : " + str(sampleList))
     key = int(input("Enter the element to search : "))
     print(binary_search(sampleList, key))
+
+#Output
+# List : [0, 1, 2, 3, 5, 7, 8]
+# Enter the element to search : 7
+# 5
+
