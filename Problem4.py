@@ -28,5 +28,12 @@ isConnected = False
 for groupSet in groupSetList:
 	if inputPair[0] in groupSetList and inputPair[1] in groupSetList:
 		isConnected = True
+		break
 
-print("They are " + "" if isConnected else "not " + "connected.")
+print(str(inputPair) + " - " + "Yes " if isConnected else "No ")
+
+# Output
+# Enter the pairs of employees in the format [{e1,e2},{e3,e4},...] : [{'Pr','An'},{'Au','Pr'},{'Au','Me'},{'Vi','Ak'},{'Ra','Pa'}]
+# Number of groups = 3
+# Enter a pair of employees in the format [e1,e2] : ['Pr','Ra']
+# No
